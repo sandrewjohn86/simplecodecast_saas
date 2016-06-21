@@ -1,3 +1,5 @@
+/* global $ */
+/* global Stripe */
 $(document).ready(function(){
     
     Stripe.setPublishablekey($('meta[name="stripe-key"]').attr('content'));
