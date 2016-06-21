@@ -1,4 +1,4 @@
-class User::RegistrationsController < Devise::RegistrationController
+class User::RegistrationsController < Devise::RegistrationsController
     
     before_filter :select_plan, only: :new
     
